@@ -4,8 +4,6 @@ const { getAll, create } = require("./services/people");
 const { faker } = require("@faker-js/faker");
 
 const port = 3000;
-//https://stackoverflow.com/questions/44004418/node-js-async-await-using-with-mysql
-//https://blog.logrocket.com/build-rest-api-node-express-mysql/
 
 app.get("/", async (req, res) => {
   await create(faker.person.firstName());
