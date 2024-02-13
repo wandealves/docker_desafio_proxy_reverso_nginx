@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  },
+  "name": "proxy_reverso_nginx",
+  "description": "Criar um Proxy Reverso nginx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandealves/docker_desafio_proxy_reverso_nginx.git"
+  },
+  "keywords": [
+    "node",
+    "nginx"
+  ],
+  "author": "Wanderson Alves Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wandealves/docker_desafio_proxy_reverso_nginx/issues"
+  },
+  "homepage": "https://github.com/wandealves/docker_desafio_proxy_reverso_nginx#readme"
+}
