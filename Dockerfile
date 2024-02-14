@@ -5,9 +5,8 @@ WORKDIR /usr/src/app
 RUN apt-get update && apt-get install -y wget
 
 COPY . .
-#COPY /src/index.js ./
 
-#RUN npm i
+RUN npm i
 
 EXPOSE 3000
 
