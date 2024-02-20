@@ -2,11 +2,13 @@ FROM node:18
 
 WORKDIR /usr/src/app
 
+COPY package*.json ./
+
 RUN apt-get update && apt-get install -y wget
 
-COPY . .
+RUN [ -e "node_modules" ] || npm install
 
-RUN npm i
+COPY . .
 
 EXPOSE 3000
 
